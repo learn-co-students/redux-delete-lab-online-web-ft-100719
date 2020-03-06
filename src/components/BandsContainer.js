@@ -9,7 +9,7 @@ class BandsContainer extends Component {
     return (
       <div>
         <BandInput addBand={this.props.addBand}/>
-        <Bands deleteBands={this.props.deleteBand} bands={this.props.bands}/>
+        <Bands deleteBand={this.props.deleteBand} bands={this.props.bands}/>
       </div>
     )
   }
